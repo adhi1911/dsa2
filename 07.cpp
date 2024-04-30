@@ -11,7 +11,7 @@ int minKey(vector<int>& key, vector<bool>& mstSet) {
         if (mstSet[v] == false && key[v] < min)
             min = key[v], min_index = v;
 
-    return min_index;
+    return min_index;  
 }
 
 void printMST(vector<int>& parent, vector<vector<int>>& graph) {
